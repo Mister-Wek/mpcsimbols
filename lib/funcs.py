@@ -28,7 +28,7 @@ def mpcsimbols_emoji(args):
     if simbol in emoji_en:
       r += emoji_en[simbol]
     elif simbol in emoji_ru:
-      r += emoji_ru[simbol
+      r += emoji_ru[simbol]
   return r
 
 funcs = {'s':mpcsimbols_s, 't':mpcsimbols_t, 'p':mpcsimbols_p, 'i':mpcsimbols_i, 'lq':mpcsimbols_lq, 'rq':mpcsimbols_rq, 'c':mpcsimbols_c, 'emoji':mpcsimbols_emoji}
