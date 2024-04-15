@@ -25,9 +25,9 @@ def mpcsimbols_e(args):
   e_ru = {'утка':'🦆', 'дерево':'🌳', 'пальма':'🌴', 'ёлка':'🌲', 'снежинка':'❄️'}
   r = ''
   for simbol in args:
-    if simbol in emoji_en:
+    if simbol in e_en:
       r += e_en[simbol]
-    elif simbol in emoji_ru:
+    elif simbol in e_ru:
       r += e_ru[simbol]
   return r
 
