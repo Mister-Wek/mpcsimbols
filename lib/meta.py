@@ -5,7 +5,7 @@ files = ['funcs.py']
 name = 'mpcsimbols'
 
 # Версия библиотеки
-version = '0.0.0.1'
+version = '0.0.0.2'
 
 # Авторство
 by = 'mrwek & weksoftware'
