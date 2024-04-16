@@ -18,3 +18,6 @@ github = 'Mister-Wek/mpcsymbols'
 
 # Префикс команд библиотеки
 prefix = '!s'
+
+# Версия MPCode
+mpcode_version = '0.0.1'
