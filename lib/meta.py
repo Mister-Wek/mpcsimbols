@@ -2,7 +2,7 @@
 files = ['funcs.py']
 
 # Короткое имя библиотеки
-name = 'mpcsimbols'
+name = 'mpcsymbols'
 
 # Версия библиотеки
 version = '0.0.0.2'
@@ -14,7 +14,7 @@ by = 'mrwek & weksoftware'
 description = 'Библиотека для использования некоторых символов'
 
 # Репозиторий на гитхаб
-github = 'Mister-Wek/mpcsimbols'
+github = 'Mister-Wek/mpcsymbols'
 
 # Префикс команд библиотеки
 prefix = '!s'
