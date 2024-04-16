@@ -5,7 +5,7 @@ files = ['funcs.py']
 name = 'mpcsymbols'
 
 # Версия библиотеки
-version = '0.0.0.2'
+version = '0.0.0.3'
 
 # Авторство
 by = 'mrwek & weksoftware'
