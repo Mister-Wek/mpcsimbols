@@ -1,26 +1,26 @@
 prefix = '!s'
-def mpcsimbols_s(args):
+def mpcsymbols_s(args):
   return ' '
 
-def mpcsimbols_t(args):
+def mpcsymbols_t(args):
   return '	'
 
-def mpcsimbols_p(args):
+def mpcsymbols_p(args):
   return '§'
 
-def mpcsimbols_i(args):
+def mpcsymbols_i(args):
   return '∞'
 
-def mpcsimbols_lq(args):
+def mpcsymbols_lq(args):
   return '«'
 
-def mpcsimbols_rq(args):
+def mpcsymbols_rq(args):
   return '»'
 
-def mpcsimbols_c(args):
+def mpcsymbols_c(args):
   return '©'
 
-def mpcsimbols_e(args):
+def mpcsymbols_e(args):
   e_en = {'duck':'🦆', 'tree':'🌳', 'palm_tree':'🌴', 'evergreen_tree':'🌲', 'snowflake':'❄️', 'snowman':'☃️'}
   e_ru = {'утка':'🦆', 'дерево':'🌳', 'пальма':'🌴', 'ёлка':'🌲', 'снежинка':'❄️', 'снеговик':'☃️'}
   r = ''
@@ -31,5 +31,5 @@ def mpcsimbols_e(args):
       r += e_ru[simbol]
   return r
 
-funcs = {'s':mpcsimbols_s, 't':mpcsimbols_t, 'p':mpcsimbols_p, 'i':mpcsimbols_i, 'lq':mpcsimbols_lq, 'rq':mpcsimbols_rq, 'c':mpcsimbols_c, 'e':mpcsimbols_e}
+funcs = {'s':mpcsymbols_s, 't':mpcsymbols_t, 'p':mpcsymbols_p, 'i':mpcsymbols_i, 'lq':mpcsymbols_lq, 'rq':mpcsymbols_rq, 'c':mpcsymbols_c, 'e':mpcsymbols_e}
   
