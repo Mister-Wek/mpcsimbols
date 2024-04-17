@@ -1,23 +1,23 @@
 prefix = '!s'
-def mpcsymbols_s(args):
+def mpcsymbols_s():
   return ' '
 
-def mpcsymbols_t(args):
+def mpcsymbols_t():
   return '	'
 
-def mpcsymbols_p(args):
+def mpcsymbols_p():
   return '§'
 
-def mpcsymbols_i(args):
+def mpcsymbols_i():
   return '∞'
 
-def mpcsymbols_lq(args):
+def mpcsymbols_lq():
   return '«'
 
-def mpcsymbols_rq(args):
+def mpcsymbols_rq():
   return '»'
 
-def mpcsymbols_c(args):
+def mpcsymbols_c():
   return '©'
 
 def mpcsymbols_e(args):
